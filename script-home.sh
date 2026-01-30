@@ -90,9 +90,9 @@ directory mask = 0777
 force user = deck
 force group = deck
 
-[mmcblk0p1]
+[SD Card]
 comment = Steam apps directory on SD card
-path = /run/media/mmcblk0p1/
+path = /run/media/deck/EF8S5/
 browseable = yes
 read only = no
 create mask = 0777
@@ -129,7 +129,7 @@ echo "文件系统现已恢复为只读模式"
 
 
 if [ "$1" = "gui" ]; then
-  zenity --info --width=400 --height=100 --text="Samba server 已安装成功！现在，你可以从本地网络上的任何设备中访问 Steam Deck 上的 deck 用户文件夹以及 SD 卡 mmcblk0p1 文件夹。"
+  zenity --info --width=400 --height=100 --text="Samba server 已安装成功！现在，你可以从本地网络上的任何设备中访问 Steam Deck 上的 deck 用户文件夹以及 SD 卡文件夹。"
   else 
     echo -e "${BOLDGREEN}Samba server 已安装成功！${ENDCOLOR}现在，你可以从本地网络上的任何设备中访问 Steam Deck 上的 deck 用户文件夹以及 SD 卡 mmcblk0p1 文件夹。"
     read -p "按任意键继续..." 
