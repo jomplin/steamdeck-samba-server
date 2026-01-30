@@ -90,7 +90,7 @@ directory mask = 0777
 force user = deck
 force group = deck
 
-[SD Card]
+[SD]
 comment = Steam apps directory on SD card
 path = /run/media/deck/EF8S5/
 browseable = yes
