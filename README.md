@@ -8,7 +8,7 @@
 在你的 Steam Deck 终端上运行该脚本：
 
 ```bash
-sh -c "$(curl -fsSL https://raw.githubusercontent.com/mikusaa/steamdeck-samba-server/main/script.sh)"
+sh -c "$(curl -fsSL https://raw.githubusercontent.com/jomplin/steamdeck-samba-server/main/script.sh)"
 ```
 
 或者，你想直接共享 `deck` 用户主文件夹，换用以下脚本：
@@ -16,7 +16,7 @@ sh -c "$(curl -fsSL https://raw.githubusercontent.com/mikusaa/steamdeck-samba-se
 > 这样将直接暴露整个用户文件夹，因此请设置稍微复杂一些的密码！
 
 ```bash
-sh -c "$(curl -fsSL https://raw.githubusercontent.com/mikusaa/steamdeck-samba-server/main/script-home.sh)"
+sh -c "$(curl -fsSL https://raw.githubusercontent.com/jomplin/steamdeck-samba-server/main/script-home.sh)"
 ```
 
 之后会自动下载并运行脚本文件，根据提示操作。
