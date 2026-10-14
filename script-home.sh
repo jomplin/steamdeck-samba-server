@@ -79,6 +79,7 @@ echo "写入 smb.conf 配置..."
 sudo tee /etc/samba/smb.conf > /dev/null <<EOF
 [global]
 netbios name = steamdeck
+hide dot files = no
 
 [Home]
 comment = Deck user home directory
